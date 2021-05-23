@@ -176,7 +176,7 @@ include("koneksi.php");
     <table class ="table table-bordered table-striped">
       <tr>
         <th>No.</th>
-        <th>ID Tjam</th>
+        <th>ID Jam</th>
         <th>ID Merk</th>
         <th>Ukuran</th>
         <th>Warna Jam</th>
