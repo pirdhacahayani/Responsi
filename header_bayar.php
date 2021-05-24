@@ -152,8 +152,8 @@ include("koneksi.php");
         <input type="text" name="ttotal_pembelian" value="<?=@$vtotal_pembelian?>" class="form-control" placeholder="Input Total Pembelian di sini!" required>
     </div>
     <div class="form-group">   
-        <label>Harga yang Dibayar</label>
-        <input type="text" name="tbayar" value="<?=@$vbayar?>" class="form-control" placeholder="Input Harga Yang Di Bayar di sini!" required>
+        <label>Harga Yang Dibayar</label>
+        <input type="text" name="tbayar" value="<?=@$vbayar?>" class="form-control" placeholder="Input Harga Yang Dibayar di sini!" required>
     </div>
     <div class="form-group">   
         <label>Sisa Bayar</label>
@@ -181,7 +181,7 @@ include("koneksi.php");
         <th>Tanggal</th>
         <th>ID Detail</th>
         <th>Total Pembayaran</th>
-        <th>Harga Yang DiBayar</th>
+        <th>Harga Yang Dibayar</th>
         <th>Sisa Bayar</th>
         <th>Aksi</th>
       </tr>
