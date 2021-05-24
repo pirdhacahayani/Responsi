@@ -140,7 +140,7 @@ include("koneksi.php");
     </div>
         <div class="form-group">   
         <label>Jumlah Beli Barang</label>
-        <input type="text" name="tjumlah_beli" value="<?=@$vjumlah_beli?>" class="form-control" placeholder="Input Jumlah Beli Jam di sini!" required>
+        <input type="text" name="tjumlah_beli" value="<?=@$vjumlah_beli?>" class="form-control" placeholder="Input Jumlah Beli Barang di sini!" required>
     </div>
     
     <button type ="submit" class="btn btn-success" name="bsimpan">Simpan</button>
