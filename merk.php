@@ -141,7 +141,7 @@ include("koneksi.php");
     </div> 
     <div class="form-group">   
         <label>Model Jam</label>
-        <input type="text" name="tmodel_jam" value="<?=@$vmodel_jam?>" class="form-control" placeholder="Input Harga Toko di sini!" required>
+        <input type="text" name="tmodel_jam" value="<?=@$vmodel_jam?>" class="form-control" placeholder="Input Model Jam di sini!" required>
     </div>
     
     <button type ="submit" class="btn btn-success" name="bsimpan">Simpan</button>
