@@ -6,7 +6,7 @@ include("koneksi.php");
    if(isset($_POST['bsimpan']))
    {
      //pengujian apakah data disimpan baru atau di edit
-     if($_GET['toko_jam']=="edit")
+     if($_GET['hal']=="edit")
      {
        //data akan diedit
        $edit = mysqli_query($koneksi, "UPDATE jam set id_jam='$_POST[tid_jam]', id_merk='$_POST[tid_merk]', 
@@ -58,7 +58,7 @@ include("koneksi.php");
      if($_GET['hal']=="edit")
      {
        //tampilkan data yang akan diedit
-       $tampil = mysqli_query($koneksi, "SELECT * FROM baju WHERE id_jam = '$_GET[id]'");
+       $tampil = mysqli_query($koneksi, "SELECT * FROM jam WHERE id_jam = '$_GET[id]'");
        $data = mysqli_fetch_array($tampil);
        if($data)
        {
